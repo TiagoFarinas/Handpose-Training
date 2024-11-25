@@ -4,10 +4,10 @@ function preload() {
   }
   let video;
   function setup() {
-    createCanvas(640, 480);
+    createCanvas(800, 800);
       // Create the video and hide it
   video = createCapture(VIDEO);
-  video.size(640, 480);
+  video.size(800, 800);
   video.hide();
   video.hide();
 
